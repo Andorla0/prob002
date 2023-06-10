@@ -1,0 +1,64 @@
+.btn{
+    transition-duration: 0.4s;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 10%;
+    border-style: double;
+    font-size: large;
+    width: 80px;
+    height: 40px; 
+  }
+
+  #botonSI
+  {
+    border-color: rgb(21, 128, 61);
+    color: rgb(21, 128, 61);
+  }
+  #botonNO
+  {
+    
+    border-color: rgb(225, 3, 3);
+    color:  rgb(225, 3, 3);
+  }
+  
+  #botonNO:hover{
+    background-color: rgb(225, 3, 3);
+    color: white;
+  }
+  #botonSI:hover{
+    background-color: rgb(21, 128, 61);
+    color: white;
+  }
+
+
+
+
+div{
+
+    display:flex;
+    gap: 20px;
+
+  
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column  ;
+    
+    height: 88vh;
+   
+    max-height: 100vh;
+   
+}
+
+.div-img{
+
+  max-height: 70vh;
+}
+img{
+  height: 50vh;
+  filter: brightness(1,1);
+  mix-blend-mode: multiply;
+}
